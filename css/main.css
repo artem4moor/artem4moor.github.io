@@ -1,0 +1,123 @@
+/* USER VARIABLES SECTION */
+
+:root {
+	--accent: orange;
+	--text: #333;
+	--regular-text: 16px;
+	--lineheight: 1.65;
+	--userfont: roboto-st, sans-serif;
+	--systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+}
+
+/* BOOTSTRAP SETTINGS SECTION */
+
+/* gutter 20px (10px + 10px). Comment this code for default gutter start at 1.5rem (24px) wide. */
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl { --bs-gutter-x: .625rem; }
+.row, .row > * { --bs-gutter-x: 1.25rem; }
+
+/* FONTS LOAD SECTION */
+
+@font-face { src: url("../fonts/roboto-regular-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 400; font-style: normal; }
+@font-face { src: url("../fonts/roboto-italic-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 400; font-style: italic; }
+@font-face { src: url("../fonts/roboto-bold-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 700; font-style: normal; }
+@font-face { src: url("../fonts/roboto-bolditalic-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 700; font-style: italic; }
+
+/* GENERAL CSS SETTINGS */
+
+::placeholder { color: #666; }
+::selection { background-color: var(--accent); color: #fff; }
+input, textarea { outline: none; }
+input:focus:required:invalid, textarea:focus:required:invalid { border-color: red; }
+input:required:valid, textarea:required:valid { border-color: green; }
+
+
+.main-foto {
+
+text-align: center;
+}
+.main-foto img {
+	margin: 0 auto;
+	width: 100%;
+}
+.spisok1{
+	position: absolute;
+	top: 100px;
+	left: 150px;
+}
+.spisok1 select{
+	width: 100px;
+	height: 25px;
+	padding: 2px;
+	border-radius: 20px;
+	border: 1px solid rgb(255, 166, 0);
+	background-color: rgb(224, 224, 224);
+	font-size: 15px;
+}
+.spisok2{
+	position: absolute;
+	top: 100px;
+	left: 300px;
+}
+.spisok2 select{
+	width: 130px;
+	height: 25px;
+	padding: 2px;
+	border-radius: 20px;
+	border: 1px solid rgb(255, 166, 0);
+	background-color: rgb(224, 224, 224);
+	font-size: 15px;
+}
+.spisok3{
+	position: absolute;
+	top: 100px;
+	left: 480px;
+}
+.spisok3 select{
+	width: 130px;
+	height: 25px;
+	padding: 2px;
+	border-radius: 20px;
+	border: 1px solid rgb(255, 166, 0);
+	background-color: rgb(224, 224, 224);
+	font-size: 15px;
+}
+.return{
+	background-color: #fff;
+	width: 250px;
+	height: 150px;
+	position: absolute;
+	top: 200px;
+	left: 150px;
+	border: none;
+	border-radius: 5px;
+}
+.return p{
+	padding-left: 60px;
+	position: relative;
+	bottom: 15px;
+	margin-bottom: 12px;
+}
+.return img{
+	width: 25px;
+	
+}
+.a111{
+	position: relative;
+	top: 45px;
+	right:9px;
+}
+.a211{
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+.a311{
+	position: relative;
+	top: 80px;
+	left: -38px;
+}
+.a411{
+	position: relative;
+	top: 115px;
+	left: -67px;
+}
